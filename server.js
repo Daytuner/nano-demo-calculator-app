@@ -18,7 +18,7 @@ baseRouter.post('/add', (req, res) => {
     let second= req.body.second
     let sum = first+second
     res.json({   
-        'result': `${sum}`
+        'result': sum
     });
 
 });
